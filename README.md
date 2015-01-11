@@ -1,5 +1,5 @@
 Total WordPress Theme Tweaker
-###
+===
 
 Example plugin for tweaking the Total WordPress theme via hooks and filters instead of using a Child theme.
 
