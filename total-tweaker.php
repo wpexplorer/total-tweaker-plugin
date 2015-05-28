@@ -37,7 +37,7 @@ class Total_Theme_Tweaker {
     public function __construct() {
 
         // Disabled the main page header title from all WooCommerce pages
-        add_filter( 'wpex_display_page_header', array( $this, 'disable_woocommerce_page_header' ) );
+        add_filter( 'wpex_display_page_header', array( $this, 'disable_woocommerce_page_header' ), 20 );
 
 
     }
